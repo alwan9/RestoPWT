@@ -1,0 +1,383 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar-dark .navbar-toggler {
+  border: 0px;
+  border-color: black;
+  color: black;
+}  
+
+.logo {
+height: 60px;
+}
+
+p {
+  margin-bottom: 0px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f3fff4;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  overflow-x: hidden;
+  color: white;
+  background: linear-gradient(160deg, #696969, #000000);
+
+}
+
+.bg-idetty {
+  background: linear-gradient(160deg, #9b6221, #5c2a09);
+}
+
+.deskripsi {
+  width: 100%;
+  height: 150px;
+}
+
+.dess {
+  font-size: 1rem;
+  color: #525252;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+.grid-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  gap: 20px;
+}
+.img-resto{
+  width: 100%; 
+  height: 320px; 
+  background: rgb(63, 63, 63);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nama-form {
+  width: 100%;
+}
+table {
+  border: 2px white;
+  gap: 300px;
+  border-spacing: 10px;
+}
+
+table th,
+table td {
+  padding: 15px; /* Atur sesuai keinginan untuk jarak antar kolom dan baris */
+}
+
+a {
+  color: white;
+  outline: black;
+  text-decoration: none;
+  color: inherit; /* Warna teks akan sama dengan warna teks sekitarnya */
+  font-weight: inherit; /* Berat teks akan sama dengan teks sekitarnya */
+  font-size: inherit; /* Ukuran teks akan sama dengan teks sekitarnya */
+  cursor: pointer; /* Mengubah kursor menjadi default */
+}
+
+a:focus {
+  outline: none;
+  cursor: pointer;
+}
+
+.grid-container {
+  padding: 7% 10%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; /* Membuat dua kolom dengan lebar yang sama */
+  gap: 3%; /* Jarak antar kolom dan baris */
+}
+.grid-container-detail {
+  color: white;
+  padding: 10% 10%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Membuat dua kolom dengan lebar yang sama */
+  gap: 3%; /* Jarak antar kolom dan baris */
+}
+
+.container-rekomendasi {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 7%;
+  border-radius: 20px;
+  padding: 2%;
+  margin: 3%;
+  width: 100%;
+  height: 100%;
+  color: #000000;
+}
+
+.pop-up:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+.header-home {
+  padding: 7% 5%;
+width: 100vw;
+  grid-template-columns: 1fr 1fr; 
+  display: grid;
+  
+}
+
+.button-lg-primary {
+  border-radius: 10px;
+  margin: 10% 0%;
+}
+.button-lg-primary:hover {
+  background-color: rgb(148, 148, 148);
+ transition: color 25ms ease;
+}
+
+.img-menu {
+  width: 100%;
+}
+.img-papan {
+  width: 100%;
+  padding: 20%;
+}
+
+
+
+/* q and a */
+
+
+
+.QandA {
+  width: 100%;
+  margin: 10% 0 0 0;
+  background-color: rgba(255, 255, 255, 0.1); 
+  padding: 5%;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+} 
+
+details  {
+  margin: 20px 0px;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color:rgb(22 22 22 / 20%);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.daftar {
+  color: white;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.274);
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+details[open] {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.pertanyaan {
+  font-weight: bold;
+  color: #ffe7c3;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+  font-size: 1.2rem;
+}
+
+details[open] .pertanyaan {
+  color: #ffcb8d;
+}
+
+.pertanyaan:hover {
+  color: #ffcb8d;
+}
+
+.jawaban {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #f8f1e5;
+  line-height: 1.6;
+}
+
+footer {
+  color: wheat;
+  text-align: center;
+  background-color: #000000;
+  padding: 2%  ; 
+}
+
+footer a {
+  color: #e6973c; /* Warna link sama dengan warna teks */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease; /* Transisi halus saat hover */
+}
+
+footer a:hover {
+  color: #ffcb8d; /* Warna saat di-hover */
+}
+
+
+.card-home {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+width: 100%;
+padding: 2% 7%;
+  margin: 0 auto;
+}
+
+.card-home-items {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #333;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-home-items:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.card-home-items h3 {
+  color: #e6973c;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card-home-items p {
+  line-height: 1.6;
+  color: #555;
+}
+
+
+
+.judul1 {
+  font-size: 4rem; 
+  font-weight: bolder;
+}
+
+.dess-home {
+  color: white; 
+  font-size: 2.3rem;
+}
+
+.form-control {
+  width: 500px;
+}
+.carii {
+  height: 80px;
+  width: 500px;
+  font-size: 2rem;
+}
+.btn-cari {
+  height: 80px;
+}
+
+.about {
+  text-align: center;
+  padding: 10% 7%;
+  color: wheat;
+  font-size: 1.5rem;
+}
+
+
+
+.profile-details {
+  text-align: center;
+}
+
+.profile-details img {
+  border-radius: 50%;
+  margin-top: 5%;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.418);
+}
+
+.profile-details h2 {
+  color: #e2e2e2;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.profile-details p {
+  color: #e2e2e2;
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+.profil {
+  padding: 15% 0 0;
+  text-align: center;
+}
+
+
+.judul-edit  {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  font-weight: bolder;
+  padding: 10% 15%;
+}
+
+.dess-edit {
+  font-size: 1.2rem; 
+   font-weight: 200;
+}
+
+.hidden {
+  display: block;
+}
+
+
+/* pop up saat di klik gambarnya */
+.img-popup {
+  width: 300px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+/* Style overlay dan gambar fullscreen */
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.overlay img {
+  max-width: 90%;
+  max-height: 90%;
+}

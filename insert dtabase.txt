@@ -1,0 +1,42 @@
+INSERT INTO kosan (nama_kosan, jenis_kosan, alamat, harga_perbulan, img_url, deskripsi, no_hp)
+VALUES
+('Kosan Sejahtera', 'Kos Tunggal', 'Jl. Raya Cikini No. 10', 1000000, 'uploads/images/kost1.png', 'Kosan nyaman dengan fasilitas lengkap. Terletak di Jl. Raya Cikini No. 10. Kosan Sejahtera menyediakan kenyamanan dan keamanan bagi penghuninya. Dengan fasilitas seperti kamar mandi dalam, dapur bersama, dan area parkir, penghuni dapat menikmati hunian yang nyaman dan terjangkau.', '08123456789'),
+('Kosan Bahagia', 'Kos Campuran', 'Jl. Raya Kebayoran No. 15', 800000, 'uploads/images/kost2.png', 'Kosan strategis dekat dengan transportasi umum. Terletak di Jl. Raya Kebayoran No. 15. Kosan Bahagia adalah pilihan ideal bagi mereka yang mencari kosan dengan akses mudah ke transportasi umum dan fasilitas umum lainnya. Dengan lingkungan yang bersih dan tenang, penghuni dapat menikmati hidup yang nyaman di tengah kota.', '08567891234'),
+('Kosan Asri', 'Kos Putri', 'Jl. Raya Gandaria No. 20', 1200000, 'uploads/images/kost3.png', 'Kosan tenang dengan lingkungan hijau. Terletak di Jl. Raya Gandaria No. 20. Kosan Asri menawarkan suasana yang tenang dan nyaman bagi para penghuninya. Dikelilingi oleh pepohonan hijau dan udara segar, penghuni dapat menikmati kesegaran alam di tengah hiruk-pikuk kota.', '08765432100'),
+('Kosan Damai', 'Kos Putra', 'Jl. Raya Meruya No. 25', 900000, 'uploads/images/kost4.png', 'Kosan modern dengan fasilitas premium. Terletak di Jl. Raya Meruya No. 25. Kosan Damai menawarkan fasilitas modern dan premium bagi penghuninya. Dengan desain yang minimalis dan fungsional, kosan ini cocok bagi mereka yang menginginkan hunian dengan kualitas tinggi dan lokasi strategis di tengah kota.', '08987654321'),
+('Kosan Harmoni', 'Kos Campuran', 'Jl. Raya Kuningan No. 30', 1500000, 'uploads/images/kost5.png', 'Kosan eksklusif dengan fasilitas lengkap. Terletak di Jl. Raya Kuningan No. 30. Kosan Harmoni adalah pilihan tepat bagi mereka yang mencari hunian eksklusif dengan fasilitas lengkap. Dikelilingi oleh pusat perbelanjaan, restoran, dan hiburan, penghuni dapat menikmati gaya hidup perkotaan yang dinamis dan nyaman.', '08123456789');
+
+
+
+
+
+
+========================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+
+
+INSERT INTO mvc_kosan (nama_kosan, jenis_kosan, alamat, harga_perbulan, img_url, deskripsi_singkat, deskripsi, no_hp)
+VALUES
+('Kosan Sejahtera', 'Kos Tunggal', 'Jl. Raya Cikini No. 10', 1000000, 'uploads/images/kost1.png', 
+ 'Kosan nyaman dengan fasilitas lengkap.',
+ 'Kosan Sejahtera adalah kosan nyaman dengan fasilitas lengkap. Terletak di Jl. Raya Cikini No. 10. Kosan Sejahtera menyediakan kenyamanan dan keamanan bagi penghuninya. Dengan fasilitas seperti kamar mandi dalam, dapur bersama, dan area parkir, penghuni dapat menikmati hunian yang nyaman dan terjangkau. Kosan ini memiliki suasana yang bersih dan tenang, cocok untuk belajar dan beristirahat.',
+ '08123456789'),
+
+('Kosan Bahagia', 'Kos Campuran', 'Jl. Raya Kebayoran No. 15', 800000, 'uploads/images/kost2.png', 
+ 'Kosan strategis dekat dengan transportasi umum.',
+ 'Kosan Bahagia adalah kosan strategis dekat dengan transportasi umum. Terletak di Jl. Raya Kebayoran No. 15. Kosan Bahagia adalah pilihan ideal bagi mereka yang mencari kosan dengan akses mudah ke transportasi umum dan fasilitas umum lainnya. Dengan lingkungan yang bersih dan tenang, penghuni dapat menikmati hidup yang nyaman di tengah kota. Kosan ini memiliki fasilitas lengkap seperti ruang belajar, ruang olahraga, dan ruang santai.',
+ '08567891234'),
+
+('Kosan Asri', 'Kos Putri', 'Jl. Raya Gandaria No. 20', 1200000, 'uploads/images/kost3.png', 
+ 'Kosan tenang dengan lingkungan hijau.',
+ 'Kosan Asri adalah kosan tenang dengan lingkungan hijau. Terletak di Jl. Raya Gandaria No. 20. Kosan Asri menawarkan suasana yang tenang dan nyaman bagi para penghuninya. Dikelilingi oleh pepohonan hijau dan udara segar, penghuni dapat menikmati kesegaran alam di tengah hiruk-pikuk kota. Kosan ini memiliki fasilitas lengkap seperti kolam renang, lapangan tenis, dan area jogging.',
+ '08765432100'),
+
+('Kosan Damai', 'Kos Putra', 'Jl. Raya Meruya No. 25', 900000, 'uploads/images/kost4.png', 
+ 'Kosan modern dengan fasilitas premium.',
+ 'Kosan Damai adalah kosan modern dengan fasilitas premium. Terletak di Jl. Raya Meruya No. 25. Kosan Damai menawarkan fasilitas modern dan premium bagi penghuninya. Dengan desain yang minimalis dan fungsional, kosan ini cocok bagi mereka yang menginginkan hunian dengan kualitas tinggi dan lokasi strategis di tengah kota. Kosan ini memiliki fasilitas mewah seperti bioskop pribadi, gym, dan sauna.',
+ '08987654321'),
+
+('Kosan Harmoni', 'Kos Campuran', 'Jl. Raya Kuningan No. 30', 1500000, 'uploads/images/kost5.png', 
+ 'Kosan eksklusif dengan fasilitas lengkap.',
+ 'Kosan Harmoni adalah kosan eksklusif dengan fasilitas lengkap. Terletak di Jl. Raya Kuningan No. 30. Kosan Harmoni adalah pilihan tepat bagi mereka yang mencari hunian eksklusif dengan fasilitas lengkap. Dikelilingi oleh pusat perbelanjaan, restoran, dan hiburan, penghuni dapat menikmati gaya hidup perkotaan yang dinamis dan nyaman. Kosan ini memiliki fasilitas lengkap seperti layanan kebersihan harian, layanan keamanan 24 jam, dan area bermain anak.',
+ '08123456789');

@@ -1,0 +1,194 @@
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0px 20px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .profile {
+    font-size: 4rem;
+    font-family: Arial;
+    text-align: center;
+  }
+
+  .card {
+    height: 250px;
+    width: 280px;
+  }
+
+  .navigation {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #333;
+  }
+
+  .navigation.show {
+    display: flex;
+  }
+
+ 
+  .menu-toggle {
+    display: block;
+    color: white;
+  }
+
+  .menu-toggle:hover {
+    background-color: #555;
+  }
+
+  .containergabungan {
+    display: block;
+    width: 100%;
+    align-items: center;
+  }
+
+  .container-rekomendasi {
+    margin-top: 7%;
+    border-radius: 10px;
+    padding: 5%;
+    margin: 3%;
+  }
+
+  .nama-resto {
+    margin: 20px 0px 0px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: black;
+  }
+  .harga-resto {
+    font-size: 1rem;
+    color: green;
+    font-weight: bold;
+  }
+  .alamat {
+    font-size: 0.7rem;
+  }
+
+ 
+
+  .judul-utama {
+    padding: 20% 0% 0%;
+    font-size: 2rem;
+  }
+  .dess {
+    font-size: 1rem;
+  }
+  .img-resto {
+    height: 170px;
+  }
+ 
+  .grid-container {
+    padding: 7% 10%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 3%;
+  }
+  .cari {
+    width: 100%;
+    padding: 0px 10%;
+  }
+  .grid-container-detail {
+    color: white;
+    padding: 20% 10%;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr ;
+    gap: 3%;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: 1fr  ;
+  gap: 20px;
+}
+.header-home{
+  display: grid;
+  grid-template-columns: 1fr  ;
+  gap: 20px;
+}
+
+.judul1 {
+  font-size: 3rem;
+  margin-top: 30%;
+}
+
+.subjudul1 {
+  font-size: 1rem;
+}
+.judul-header {
+  color: wheat;
+}
+
+.dess-home {
+  font-size: 1.5rem;
+}
+
+.QandA {
+  margin: 10% 0 0 0;
+  padding: 5%;
+  font-size: 1rem;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+} 
+
+.form-control {
+  height: 40px;
+  width: 500px;
+  font-size: 1rem;
+}
+.btn-cari {
+  height: 40px;
+}
+.about {
+  padding: 10% 7%;
+  font-size: 1rem;
+}
+
+table {
+  min-width: 1500px;
+  font-size: 0.7rem;
+}
+
+details  {
+  margin: 7px 0px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color:rgb(22 22 22 / 20%);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.daftar {
+  color: white;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.274);
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+.judul-edit  {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: bolder;
+  padding: 20% 15%;
+}
+
+.dess-edit {
+  font-size: 0.8rem; 
+   font-weight: 200;
+}
+.hidden {
+  display: none;
+}
+}
+

@@ -1,0 +1,4 @@
+app nya bermasalah karena menggunakan tailwind + bootstrapp
+
+caranya sementara:
+hapus tailwind pada header, dan file lainnya
